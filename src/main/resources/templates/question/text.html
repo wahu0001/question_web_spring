@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html xmlns:th="https://www.thymeleaf.org" th:replace="~{fragments/layout :: layout (~{::body},'home')}">
+
+  <body>
+
+    <h2>Question</h2>
+    <div class="row">
+        <div class="col-md-12">
+        	<h1>Intitulé de la question :</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+        	<form>
+        		<label>Saisissez votre réponse :</label>
+        		<input type ="text" name="response"/>
+        		<button type='submit'>Envoyer</button>
+        	</form>
+        </div>
+    </div>
+
+  </body>
+
+</html>
